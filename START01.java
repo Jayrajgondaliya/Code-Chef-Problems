@@ -1,0 +1,25 @@
+// Number Mirror
+// Problem Statement
+// Write a program that accepts a number, n, and outputs the same.
+//
+// Input
+// The only line contains a single integer.
+//
+// Output
+// Output the answer in a single line.
+//
+// Constraints
+// 0 ≤ n ≤ 105
+// Sample Input
+// 123
+// Sample Output
+// 123
+
+import java.util.*;
+
+public class START01{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+				System.out.println(sc.nextLine());
+	}
+}

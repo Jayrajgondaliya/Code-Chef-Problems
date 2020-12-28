@@ -13,3 +13,13 @@ This is practice repository where I will be adding solutions of problems from Co
 1. HS08TEST - ATM Problem - Solved.
 2. TURBOSORT - Sorting of numbers, Implemented using mergesort.
 3. FCTRL - Factorial - Factorial of large numbers - Ex: Factorial of 100. - Implemented using array as container for holding huge values.
+4. CHOPRT
+5. FCTRL2
+6. FLOW001
+7. FLOW002
+8. FLOW006
+9. FLOW008
+10. FLOW018
+11. INTEST
+12. START01
+
