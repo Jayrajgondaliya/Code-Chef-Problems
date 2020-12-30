@@ -26,5 +26,15 @@
 21. FLOW014 - Grade The Steel.
 22. FLOW011 - Gross Salary.
 23. SMPAIR - The Smallest Pair
-24. LUCKFOUR 
+24. LUCKFOUR
+25. CIELRCPT.java
+26. DIFFSUM.java
+27. FLOW009.java
+28. FLOW010.java
+29. FLOW013.java
+30. FLOW016.java
+31. LAPIN.java
+32. PPSUM.java
+33. RECIPE.java
+34. TRISQ.java
 
