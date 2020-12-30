@@ -37,4 +37,7 @@
 32. PPSUM.java
 33. RECIPE.java
 34. TRISQ.java
+35. AMR15A.java
+36. PRB01.java
+37. REMISS.java
 
