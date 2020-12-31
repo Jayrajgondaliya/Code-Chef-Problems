@@ -40,4 +40,15 @@
 35. AMR15A.java
 36. PRB01.java
 37. REMISS.java
+38. CEQUAL.java
+39. CHEFAPAR.java
+40. CHEFWARS.java
+41. COVIDLQ.java
+42. DECINC.java
+43. FLOW005.java
+44. L56GAME.java
+45. LISDIGIT.java
+46. PALL01.java
+47. PCJ18A.java
+48. SUMTRIAN.java
 
