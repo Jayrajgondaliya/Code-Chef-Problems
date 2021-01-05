@@ -51,4 +51,7 @@
 46. PALL01.java
 47. PCJ18A.java
 48. SUMTRIAN.java
+49. QUALPREL.java
+50. TWEED.java
+51. ZUBREACH.java
 
