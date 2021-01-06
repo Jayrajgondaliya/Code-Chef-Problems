@@ -54,4 +54,6 @@
 49. QUALPREL.java
 50. TWEED.java
 51. ZUBREACH.java
-
+52. CHEFINSQ.java
+53. SPAMCLAS.java
+54. UCL.java
