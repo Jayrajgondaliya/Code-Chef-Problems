@@ -90,7 +90,6 @@ public class SPAMCLAS{
 			int n = sc.nextInt();
 			int min = sc.nextInt();
 			int max = sc.nextInt();
-			
 			long totalNoOfUsers = max - min + 1;
 			long noOfSpammers = 0;
 			long noOfNonSpammers = 0;

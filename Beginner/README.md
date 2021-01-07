@@ -57,3 +57,11 @@
 52. CHEFINSQ.java
 53. SPAMCLAS.java
 54. UCL.java
+55. ATTENDU.java
+56. CATHIEF.java
+57. CYBV.java
+58. EVENPSUM.java
+59. SEDARR.java
+60. UWCOI21A.java
+61. VACCINE1.java
+62. VACCINE2.java
