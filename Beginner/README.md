@@ -65,3 +65,13 @@
 60. UWCOI21A.java
 61. VACCINE1.java
 62. VACCINE2.java
+63. ADADISH.java
+64. CHEFEZQ.java
+65. CHEFSTLT.java
+66. EOOPR.java
+67. FRUITS.java
+68. PERMUT2.java
+69. POTATOES.java
+70. RECTANGL.java
+71. TWOVSTEN.java
+72. TWTCLOSE.java
