@@ -32,9 +32,25 @@ public class PERMUT2
 {
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
-		int t = sc.nextInt();
-		ArrayList<> answer = new ArrayList<>();
-		while(t-->0){
+		ArrayList<String> answer = new ArrayList<String>();
+		while(sc.hasNext()){
+			int n = sc.nextInt();
+			if(n > 0){
+				boolean flag = true;
+				String str[] = sc.nextLine().split(" ");
+				for(int i = 0; i < n; i++){
+					if((i+1) != Integer.parseInt(str[Integer.parseInt(str[i]) - 1])){
+						flag = false;
+						break;
+					}
+				}
+				
+				if(flag){
+					answer.add("ambiguous");
+				}else{
+					answer.add("not ambiguous");
+				}
+			}
 			
 		}
 		answer.forEach(System.out::println);

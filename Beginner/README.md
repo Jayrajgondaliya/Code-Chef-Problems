@@ -75,3 +75,7 @@
 70. RECTANGL.java
 71. TWOVSTEN.java
 72. TWTCLOSE.java
+73. COPS.java
+74. PINS.java
+75. SNCKYEAR.java
+76. TRICOIN.java
