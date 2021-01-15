@@ -87,3 +87,10 @@
 82. MISSP.java
 83. MNMX.java
 84. RECTSQ.java
+85. ALPHABET.java
+86. ATM2.java
+87. CANDY123.java
+88. CHEFARRP.java
+89. MATCHES.java
+90. RAINBOWA.java
+91. VCS.java
