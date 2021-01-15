@@ -79,3 +79,11 @@
 74. PINS.java
 75. SNCKYEAR.java
 76. TRICOIN.java
+77. AREAPERI.java
+78. CHN15A.java
+79. FRGTNLNG.java
+80. KTTABLE.java
+81. LCH15JAB.java
+82. MISSP.java
+83. MNMX.java
+84. RECTSQ.java
