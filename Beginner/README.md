@@ -94,3 +94,8 @@
 89. MATCHES.java
 90. RAINBOWA.java
 91. VCS.java
+92. CCOOK.java
+93. CHEFSQ.java
+94. MOVIEWKN.java
+95. RRJOKE.java
+96. TWONMS.java
