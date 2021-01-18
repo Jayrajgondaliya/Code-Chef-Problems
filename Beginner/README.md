@@ -99,3 +99,12 @@
 94. MOVIEWKN.java
 95. RRJOKE.java
 96. TWONMS.java
+97. ADASCOOL.java
+98. CATSDOGS.java
+99. COLOR.java
+100. CUTBOARD.java
+101. DWNLD.java
+102. ICL1902.java
+103. SIMDISH.java
+104. TABLET.java
+105. TALAZY.java
