@@ -121,3 +121,6 @@
 116. TICKETS5.java
 117. TTENIS.java
 118. ZCOSCH.java
+119. ANKTRAIN.java
+120. LOSTMAX.java
+121. RPD.java
