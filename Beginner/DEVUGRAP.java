@@ -1,0 +1,75 @@
+//DEVUGRAP
+/*
+Grapes of Coderpur are very famous. Devu went to the market and saw that there were N people selling grapes. He didn’t like it because things were not very structured. So, he gave a task to Dhinwa to make things better. If Dhinwa successfully completes the task, Devu will be happy.
+
+Devu wants to change the number of grapes in a bucket of zero or more sellers in such a way that the GCD of all the number of grapes is divisible by K. Dhinwa can add or remove any number of grapes from each of the buckets. Adding or removing a grape will be counted as an operation. Also after the operation, none of the seller’s bucket should be empty.
+
+Help Dhinwa in finding the minimum number of operations needed to make Devu happy.
+
+Input
+First line of input contains an integer T denoting the number of test cases.
+For each test case, first line will contain an integer N denoting the number of buckets and integer K.
+Next line contains N space separated integers denoting the number of grapes in each of the bucket.
+Output
+For each test case, print a single integer representing the answer of that test case.
+Constraints
+Subtask #1: 10 points
+
+1 ≤ T ≤ 10, 1 ≤ N ,K ≤ 10, 1 ≤ number of grapes in a bucket ≤ 10
+Subtask #2: 10 points
+
+1 ≤ T ≤ 10, 1 ≤ N,K ≤ 100, 1 ≤ number of grapes in a bucket ≤ 100
+Subtask #3: 80 points
+
+1 ≤ T ≤ 10, 1 ≤ N ≤ 105, 1 ≤ K ≤ 109, 1 number of grapes in a bucket ≤ 109
+Example
+Input:
+2
+2 2
+3 5
+3 7
+10 16 18
+
+Output:
+2
+8
+Explanation
+For the first test case, add or remove 1 grape in each of the bucket.
+
+For the second test case, remove three grapes in the first bucket, remove two grapes from the second bucket and add three grapes in the third bucket.
+*/
+import java.util.*;
+public class DEVUGRAP{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		ArrayList<Long> answer = new ArrayList<Long>();
+		while(t-->0){
+            int n = sc.nextInt();
+            int k = sc.nextInt();
+            List<Integer> list = new ArrayList<Integer>();
+            for(int i = 0; i < n; i++){
+                list.add(sc.nextInt());
+            }
+            long operation = 0;
+            int diff = 0;
+            for(Integer e : list){
+                if(e % k != 0){
+                    diff = e - k;
+                    if(diff < 0){
+                        operation += -(diff);
+                    }else{
+                        diff = e % k;
+                        if(diff <= (k / 2)){
+                            operation += diff;
+                        }else{
+                            operation += (k - diff);
+                        }
+                    }
+                }
+            }
+            answer.add(operation);
+		}
+		answer.forEach(System.out::println);
+	}
+}
