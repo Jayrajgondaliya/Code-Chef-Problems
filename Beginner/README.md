@@ -147,3 +147,21 @@
 142. PLAYSTR.java
 143. STRLBP.java
 144. UTMOPR.java
+145. ADACRA.java
+146. AVG.java
+147. BIT2A.java
+148. BRLADDER.java
+149. CHEFRUN.java
+150. CHEFSTEP.java
+151. CHNGIT.java
+152. CNDLOVE.java
+153. CODERLIF.java
+154. COOMILK.java
+155. DIVTHREE.java - Not in this bucket
+156. EGRANDR.java
+157. FLOW015.java
+158. GOODSET.java
+159. LIFTME.java
+160. MDL.java
+161. NITIKA.java
+162. NOTINCOM.java
