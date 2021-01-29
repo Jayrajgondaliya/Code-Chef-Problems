@@ -165,3 +165,8 @@
 160. MDL.java
 161. NITIKA.java
 162. NOTINCOM.java
+163. CHFCHK.java
+164. DEVARRAY.java
+165. EXAM1.java
+166. LOSTWKND.java
+167. PRICECON.java
