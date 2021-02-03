@@ -49,15 +49,16 @@ public class LOSTMAX
 		Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         sc.nextLine();
-		ArrayList<Integer> answer = new ArrayList<Integer>();
+		ArrayList<String> answer = new ArrayList<String>();
 		while(t-->0){
             String arr[] = sc.nextLine().split(" ");
             int n = arr.length - 1;
-            List<Integer> list = IntStream.range(1, arr.length).mapToObj(s -> Integer.valueOf(arr[s])).sorted(Comparator.reverseOrder()).collect(Collectors.toList());
-            if(list.get(0) == n){
-                answer.add(list.get(1));
+            //List<Integer> list = IntStream.range(1, arr.length).mapToObj(s -> Integer.valueOf(arr[s])).sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+            List<String> list2 = Arrays.stream(arr).sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+            if(Integer.valueOf(list2.get(0)) == n){
+                answer.add(list2.get(1));
             }else{
-                answer.add(list.get(0));
+                answer.add(list2.get(0));
             }
 		}
 		answer.forEach(System.out::println);
