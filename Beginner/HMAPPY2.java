@@ -44,13 +44,14 @@ public class HMAPPY2{
 		int t = sc.nextInt();
 		ArrayList<String> answer = new ArrayList<String>();
 		while(t-->0){
-            int n = sc.nextInt();
+            long n = sc.nextLong();
             int a = sc.nextInt();
             int b = sc.nextInt();
             long k = sc.nextLong();
-            int LCM = lcm(a, b);
+            long LCM = lcm(a, b);
             //long count = IntStream.range(1, n+1).filter(e -> ((e % a == 0 || e % b == 0) && (e % LCM != 0))).count();
-            long count = IntStream.range(1, n+1).filter(e -> ((e % a == 0 && e % b != 0) || (e % a != 0 && e % b == 0))).count();
+            //long count = LongStream.range(1, n+1).filter(e -> ((e % a == 0 && e % b != 0) || (e % a != 0 && e % b == 0))).count();
+            long count = n / a + n / b - 2 * n / LCM;
             if(count >= k){
                 answer.add("Win");
             }else{
@@ -60,8 +61,8 @@ public class HMAPPY2{
 		answer.forEach(System.out::println);
     }
     
-    private static int lcm(int a, int b){
-        return (a * b) / gcd(a, b);
+    private static long lcm(int a, int b){
+        return (a * b * 1L) / gcd(a, b);
     }
 
     private static int gcd(int a, int b){
