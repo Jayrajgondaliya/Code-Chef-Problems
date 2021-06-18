@@ -252,3 +252,8 @@
 247. CHEFRECP.java
 248. COUPSYS.java
 249. ZCO14003.java
+250. CHRL4.java
+251. MXCH.java
+252. PLAIN.java
+253. Repetition.java
+254. SNAKE.java

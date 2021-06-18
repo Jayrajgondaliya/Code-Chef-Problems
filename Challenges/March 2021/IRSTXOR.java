@@ -1,0 +1,82 @@
+//IRSTXOR
+/*
+You are given an integer C. Let d be the smallest integer such that 2d is strictly greater than C.
+
+Consider all pairs of non-negative integers (A,B) such that A,B<2d and A⊕B=C (⊕ denotes the bitwise XOR operation). Find the maximum value of A⋅B over all these pairs.
+
+Input
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer C.
+Output
+For each test case, print a single line containing one integer ― the maximum possible product A⋅B.
+
+Constraints
+1≤T≤105
+1≤C≤109
+Subtasks
+Subtask #1 (30 points): 1≤C≤103
+Subtask #2 (70 points): original constraints
+
+Example Input
+2
+13
+10
+Example Output
+70
+91
+Explanation
+Example case 1: The binary representation of 13 is "1101". We can use A=10 ("1010" in binary) and B=7 ("0111" in binary). This gives us the product 70. No other valid pair (A,B) can give us a larger product.
+
+Example case 2: The binary representation of 10 is "1010". We can use A=13 ("1101") and B=7 ("0111"). This gives us the maximum product 91.
+*/
+import java.util.*;
+public class IRSTXOR{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		ArrayList<Long> answer = new ArrayList<Long>();
+		while(t-->0){
+			long c = sc.nextLong();
+            long a = findNearest2d(c) / 2 - 1;
+            long b = a ^ c;
+            answer.add(a*b);
+		}
+		answer.forEach(System.out::println);
+	}
+
+    public static long findNearest2d(long num){
+        long i = 1;
+        while(i < num){
+            i *= 2; 
+        }
+        return i;
+    }
+}
+
+
+// find nearest value of d >> 2 to the power of d divide by 2 minus 1 is answer
+
+
+// public class HelloWorld{
+
+//     // C = 7
+//          public static void main(String []args){
+//              int c = 256;//, temp = 0;
+//              //for(int i = 1; i < 256; i++){
+//              long nearest = get2d(c);
+//              long a = nearest / 2 - 1;
+//              long temp = c ^ a;
+//                  System.out.println(nearest+" >> "+a+" * "+temp+" = "+ a * temp);
+//                  //System.out.println(i+" * "+temp+" = "+i * temp);
+//              //}
+            
+//          }
+         
+//          public static long get2d(long num){
+//              long l = 1;
+//              while(l <= num){
+//                  l *= 2;
+//              }
+//              return l;
+//          }
+//     }
